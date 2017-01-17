@@ -10,7 +10,7 @@ As other laravel packages, Telco is installed via composer.
 In your terminal at the project root run
 
 ```$xslt
-composer install kagga\telco
+composer install kagga/telco
 ```
 
 
