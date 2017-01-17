@@ -1,0 +1,18 @@
+{
+    "name": "kagga/telco",
+    "description": "Wrapper around the AfricasTalking api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Kagga",
+            "email": "johnkagga@arvana.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kagga\\Telco\\": "src/"
+        }
+    }
+}
