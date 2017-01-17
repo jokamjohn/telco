@@ -22,9 +22,7 @@ Illuminate\Support\Facades\Route::post('/telco/send', function (\Kagga\Telco\con
     $message = request('message');
 
     $results = $telco->send($phonenumber, $message);
-
-    $results = Telco::send($phonenumber, $message);
-
+    
     if ($results != null) {
 
         return "Message has been sent successful to " . $phonenumber;
