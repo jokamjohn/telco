@@ -31,7 +31,7 @@ Then also add the Facade aliases in `config/app.php` within the alias section.
 ```
 
     
- ## Configuration
+## Configuration
     
  Now we are going to config the AfricasTalking api. Head over to your account or sign up to 
     get your api key and username and jey hold of them.
@@ -58,14 +58,14 @@ SMS_API_KEY=yourapi-key
   A success message will be showed after you send the message or an error 
   message if something goes wrong.
   
-  ##Usage
+## Usage
   At the moment the package has two methods, one for sending `send` an sms and the other
   the `api` that exposes the AfricasTalking Gateway.
   
   With the `api` method you can access all the public methods in the 
   [AfricasTalkingGateway](http://docs.africastalking.com/sms/sending) .
   
-  ###Example code
+### Example code
   ```$xslt
 Illuminate\Support\Facades\Route::post('/telco/send', function (\Kagga\Telco\contracts\TelcoInterface $telco) {
 
@@ -91,7 +91,7 @@ Do not forget to add the facade import statement
 `use Kagga\Telco\facades\Telco;`
 
   
-  Thats it.
+  _Thats it_.
   
   Thanks for using this package.
   
