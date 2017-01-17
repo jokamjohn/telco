@@ -2,7 +2,7 @@
 
 namespace Kagga\Telco;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class TelcoServiceProvider extends ServiceProvider
 {
